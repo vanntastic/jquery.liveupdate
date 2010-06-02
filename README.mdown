@@ -19,4 +19,7 @@ Add in the plugin with the following files:
      $('#your-input').liveUpdate('#tbl tr td')
      
 
+Credits
+=======
+
 Code from: http://ejohn.org/blog/jquery-livesearch/ John Resig and originally written by John Nunemaker at: http://orderedlist.com/our-writing/blog/articles/live-search-with-quicksilver-style-for-jquery/
