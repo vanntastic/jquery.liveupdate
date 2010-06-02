@@ -1,0 +1,20 @@
+Liveupdate
+==========
+
+A simple jquery plugin to filter out lists and html elements.
+
+Original code from: http://ejohn.org/blog/jquery-livesearch/ w/ slight modifications to allow full jquery expressions in the list.
+
+USAGE:
+
+Add in the plugin with the following files:
+
+     <script type="text/javascript" src="jquery.liveupdate/quicksilver.js"></script>                            
+     <script type="text/javascript" src="jquery.liveupdate/jquery.liveupdate.js"></script>  
+
+     $('#your-input').liveUpdate('#list-id')
+     // If you have html or anchors in your list, remember it only strips out the innerHTML of each jquery elem
+     $('#your-input').liveUpdate('ul#list-id a')
+     // You don't have to restrict this to just lists, you can also filter table rows and such
+     $('#your-input').liveUpdate('#tbl tr td')
+     
